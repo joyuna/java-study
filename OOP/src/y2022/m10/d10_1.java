@@ -4,7 +4,7 @@
 
 package y2022.m10;
 
-public class d10_1 {
+public class D10_1 {
 
     static class Mode {
         String modeName;
