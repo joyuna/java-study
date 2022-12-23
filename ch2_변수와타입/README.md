@@ -31,13 +31,13 @@ double value; // 실수 double값을 저장할 수 있는 value 변수 선언
   - 초기값 
     - 변수를 선언하고 처음 값을 저장할 경우, 초기값이라고 한다.
     - 변수를 선언함과 동시에 줄 수도 있다.
-  ```java
-        int score; // 변수 선언
-        score = 90; // 값 저장
-  ```
-  ```java
-        int score = 90;
-  ```
+    ```java
+    int score; // 변수 선언
+    score = 90; // 값 저장
+    ```
+    ```java
+    int score = 90;
+    ```
 
   - 리터럴(literal)
     - 소스 코드 내에서 직접 입력된 초기값을 말한다.
@@ -58,12 +58,12 @@ double value; // 실수 double값을 저장할 수 있는 value 변수 선언
 - 변수값 읽기
   - 변수는 초기화과 되어야 읽을 수가 있고, 초기화되지 않은 변수는 읽을 수가 없다.
     ```java
-      int value; // 변수 value 선언(초기화 안 됨)
-      int result = value + 10; // 변수 value 값을 읽고 10을 더한 결과값을 변수 result에 저장
+    int value; // 변수 value 선언(초기화 안 됨)
+    int result = value + 10; // 변수 value 값을 읽고 10을 더한 결과값을 변수 result에 저장
     ```
     ```java
-      int value = 30; // 변수 value가 30으로 초기화 됨
-      int result = value + 10; // 변수 value 값을 읽고 10을 더한 결과값(40)을 변수 result에 저
+    int value = 30; // 변수 value가 30으로 초기화 됨
+    int result = value + 10; // 변수 value 값을 읽고 10을 더한 결과값(40)을 변수 result에 저
     ```
   
 ### 4. 변수의 사용 범위
